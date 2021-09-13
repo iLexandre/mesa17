@@ -41,12 +41,3 @@ button:hover{
     color: antiquewhite;
     transition: 2s ease-in-out;
   }
-
-@keyframes botao {
-    from {
-        transition: background-color: azure;
-    }
-    to {
-        transition: background-color:black;
-    }
-}
