@@ -1,0 +1,52 @@
+img{
+    display: block
+}
+
+.bola{
+    width:150px;
+    animation: bola 5s forwards;
+}
+
+@keyframes bola{
+    from{
+        opacity: 0;
+        transform: scale(0) translateX(0px) translateY(0px) rotate(1080deg);
+    }
+    to{
+        transform: scale(100%) translateX(600px) translateY(0) rotate(0);
+    }
+}
+
+.icone{
+    width:150px;
+    animation: icone 5s;
+}
+
+@keyframes icone {
+    from {
+        transform: skew(0deg, 0deg);
+    }
+    to {
+        transform: skew(15deg, 15deg);
+    }
+}
+
+button{
+    width:150px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: black;
+    color: antiquewhite;
+    transition: 2s ease-in-out;
+  }
+
+@keyframes botao {
+    from {
+        transition: background-color: azure;
+    }
+    to {
+        transition: background-color:black;
+    }
+}
